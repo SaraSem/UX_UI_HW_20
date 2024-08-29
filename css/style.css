@@ -27,6 +27,11 @@ p {
     color: #666;
     font-size: 1em;
 }
+.sidebyside {
+    display: inline-block;
+    width: 45%;
+    border: 1px solid red;
+}
 
 /* My UX Skills section */
 .skills-container {
