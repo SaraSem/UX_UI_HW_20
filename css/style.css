@@ -30,7 +30,8 @@ p {
 .sidebyside {
     display: inline-block;
     width: 45%;
-    border: 1px solid red;
+    vertical-align: top;
+   /* border: 1px solid red;*/
 }
 
 /* My UX Skills section */
@@ -108,17 +109,17 @@ p {
     line-height: 1.5em;
 }
 
-button {
+.sarabutton {
     padding: 10px 20px;
-    background-color: #007BFF;
+    background-color: #60b448;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
-button:hover {
-    background-color: #0056b3;
+.sarabutton:hover {
+    background-color: #269308;
 }
 /* Accordion Styles */
 .accordion {
